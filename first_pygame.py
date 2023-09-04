@@ -1,5 +1,4 @@
 # pylint: skip-file
-from typing import Any
 import pygame
 from random import randint, choice
 
@@ -250,7 +249,7 @@ while True:
 
                 # if (randint(0, 2)):
                 #     obstacle_rect_list.append(
-                #         snail_surf.get_rect(midbottom=(randint(900, 1100), 300)))  # nopep8
+                #         snail_surf.get_rect(midbottom=(randint(900, 1100), 300)))
                 # else:
                 #     obstacle_rect_list.append(
                 # fly_surf.get_rect(midbottom=(randint(900, 1100), 210)))
